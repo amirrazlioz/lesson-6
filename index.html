@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Lesson-6" content="width=device-width, initial-scale=1.0">
+    <title>Lesson-6</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="tar1">
+        <h2>בדיקת תקינות תעודת זהות</h2>
+        <label for="idInput">הכנס תעודת זהות:</label>
+        <input type="text" id="idInput" maxlength="9" placeholder="הכנס 9 ספרות">
+        <button onclick="validateID()">בדוק</button>
+        <p id="tar1output"></p>  
+    </div>
+
+    <div id="tar2">
+        <h2>בדיקה אם המספר הינו ראשוני </h2>
+        <label for="idInput">הכנס מספר:</label>
+        <input type="text" id="number"  placeholder="מספר לבדיקה">
+        <button onclick="checkPrime()">בדוק</button>
+        <p id="tar2output"></p>  
+    </div>
+
+    <div id="tar3">
+        <h2> הוספת רווח לפני אות גדולה </h2>
+        <label for="idInput">הכנס מחרוזת:</label>
+        <input type="text" id="string"  placeholder="מחרוזת לבדיקה">
+        <button onclick="testAddSpaceBeforeUppercase()">בדוק</button>
+        <p id="tar3output"></p>  
+    </div>
+
+    <div id="tar4">
+        <h2> ספירת כמות הופעות של מחרוזת קטנה במחרוזת גדולה </h2>
+        <div>
+            <label for="idInput">הכנס מחרוזת קטנה:</label>
+            <input type="text" id="shortStr"  placeholder="מחרוזת קטנה">
+        </div>
+
+        <div>
+            <label for="idInput">הכנס מחרוזת גדולה:</label>
+            <input type="text" id="longStr"  placeholder="מחרוזת גדולה">
+        </div>
+        <button onclick="testCountOccurrences()">בדוק</button>
+        <p id="tar4output"></p>  
+    </div>
+
+    <div id="tar5">
+        <h2> מיון מחרוזת </h2>
+        <label for="idInput">הכנס מחרוזת :</label>
+        <input type="text" id="Str"  placeholder="מחרוזת">
+        <button onclick="testBubbleSortString()">בדוק</button>
+        <p id="tar5output"></p>  
+    </div>
+
+</body>
+</html>
